@@ -1,2 +1,43 @@
-// global styles go in here. 
+// global styles go in here.
 // When you start writing styles for your individual components you'll have to start importing them
+
+$red: #e35557;
+$white: #fff;
+// @import '~antd/dist/antd.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #555555;
+  background: #f2f2f2;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input, button, select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+@import './styles/notification-panel.scss';
+@import './styles/task-list.scss';
+@import './styles/task-panel.scss';
+@import './styles/task.scss';
+@import './styles/title-bar.scss';
+@import './styles/wrapper.scss';
+@import './styles/task-card.scss';
+@import './styles/button.scss';
+@import './styles/app.scss';
+@import './styles/details-panel.scss';

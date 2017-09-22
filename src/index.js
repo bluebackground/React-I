@@ -4,4 +4,6 @@ import ReactDom from 'react-dom';
 
 require('!style-loader!css-loader!sass-loader!./index.scss');
 
-ReactDom.render(<div>Hello World!</div>, document.getElementById('root'));
+import App from './components/App.js';
+
+ReactDom.render(<App />, document.getElementById('root'));

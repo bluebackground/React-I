@@ -1,0 +1,28 @@
+.task {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task__title {
+  // color: #871542;
+  color: #aa2049;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.task__description {
+  // color: #db416f;
+  color: #aa2049;
+  // color: #991a4c;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.task__actions {
+  flex-shrink: 0;
+}
+
+.task__message {
+
+}

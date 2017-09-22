@@ -1,0 +1,18 @@
+.notification-panel {
+  // border: 1px solid DarkGray;
+  // background: #bfaeba;
+  background: transparent;
+  // color: #c4a7a2
+  height: 70px;
+  align-items: center;
+  // margin-top: 10px;
+  z-index: 0;
+}
+
+.notification-panel__message {
+  color: #b7376a;
+  // color: #4c2330;
+  // background: #e281a7;
+  background: #e2b5c7;
+  box-shadow: -2px 2px 1px 1px DarkGray;
+}

@@ -1,0 +1,23 @@
+.title-bar {
+  // background: #db416f;
+  // background: #871542;
+  background: #aa2049;
+  color: $white;
+  box-shadow: 0px 4px 2px #888888;
+  z-index: 100;
+}
+
+.title-bar__title {
+ color: White;
+ // background-color: #e2d9dd;
+ // background-color:  #e5809e;
+ font-weight: 300;
+ text-shadow: 0px 0px 2px rgba(255,255,255, 0.4);
+ // background-clip: text;
+}
+
+.title-bar__subtitle {
+  font-weight: 200;
+  font-size: 1.3rem;
+  color: White;
+}

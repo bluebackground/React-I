@@ -1,0 +1,43 @@
+.task-panel {
+  // height: 400px;
+  // background: #383231;
+  background: #4c2330;
+  // background: LightGray
+  border: 1px solid DarkGray;
+  padding: 1.8rem;
+  box-shadow: -4px 4px 3px #888888;
+}
+
+.task-panel__task-list {
+  flex: 4;
+  background: LightGray;
+  border: 1px solid DarkGray;
+  padding: 1.3rem;
+  box-shadow: -2px 2px 1px 1px DarkGray inset;
+}
+
+.task-panel__current-task-panel {
+  flex: 4;
+  border: 1px solid DarkGray;
+  padding: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.task-panel__actions {
+  flex: 1;
+  margin-left: 1.3rem;
+}
+
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 2px solid #e281a7;
+  color: #c62b67;
+  font-weight: 600;
+  flex-grow: 1;
+  padding: 0 1.3rem;
+  outline: none;
+  box-shadow: -2px 2px 1px 1px DarkGray;
+}

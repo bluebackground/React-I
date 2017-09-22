@@ -1,0 +1,19 @@
+.task-card {
+  background: $white;
+  border: 1px dotted #c62b67;
+  padding: 1.3rem;
+  box-shadow: -2px 2px 1px #888888;
+  margin: 3px;
+  // width:100%;
+}
+
+.task-card__message {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+.task-card--completed {
+  border: 2px dashed #0da51c;
+}
